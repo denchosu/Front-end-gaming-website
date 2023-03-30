@@ -1,0 +1,415 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container-1,
+.container2 {
+    width: 100%;
+    color: white;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 20%, rgba(44, 29, 14, 1) 80%);
+    max-width: 2000px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+}
+
+.container-3 {
+    width: 100%;
+    color: white;
+    background: linear-gradient(299deg, rgba(24,13,2,1) 0%, rgba(8,3,0,1) 100%);
+    max-width: 2000px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+}
+
+.top {
+    display: flex;
+    height: 120px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    flex: 1;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav-links {
+    font-weight: 300;
+}
+
+.nav-links a {
+    margin: 0 45px;
+}
+
+.contact {
+    margin: 0;
+    padding: 10px 30px;
+    background-color: rgb(228, 148, 0);
+    border-radius: 5px;
+}
+
+.top,
+.restrict ul {
+    margin: 0 30px;
+}
+
+h3 {
+    color: rgb(228, 148, 0);
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 55px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 40%;
+    margin-left: 150px;
+    margin-top: 100px;
+
+}
+
+.details p {
+    font-size: 17px;
+}
+
+.details * {
+    margin: 20px 0px;
+}
+
+.get-more-details {
+    padding: 30px 50px;
+    background-color: rgb(228, 148, 0);
+    border-radius: 50px;
+    margin-top: 50px;
+    background: linear-gradient(100deg, rgba(207, 65, 11, 1) 20%, rgba(205, 128, 50, 1) 80%);
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.joy-stick {
+    position: absolute;
+    width: 806px;
+
+    right: 120px;
+    top: 0px;
+}
+
+.see-all {
+    padding: 20px 50px;
+    background-color: #302B28;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.games-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 150px 150px 0;
+}
+
+.menu-text {
+    font-size: 26px;
+}
+
+.games-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 50px 150px 0;
+}
+
+.preview-descrip {
+    display: flex;
+    justify-content: center;
+}
+
+.preview-descrip * {
+    margin: 0 3px;
+}
+
+.big-lorem {
+    display: flex;
+    flex-direction: column;
+    margin: 200px 150px 0px;
+    align-items: center;
+
+}
+
+h5 {
+    font-size: 40px;
+    width: 60%;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 60px;
+    color: white;
+
+}
+
+.one {
+    font-size: 29px;
+    width: 40%;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.two {
+    font-size: 18px;
+    width: 50%;
+
+
+}
+
+.p-s {
+    align-self: flex-start;
+    margin-bottom: 50px;
+}
+
+.spider-man {
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.pik4a {
+    background-image: url(img/Rectangle.png);
+    width: 100%;
+    max-width: 2000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    flex-direction: column;
+
+}
+
+.pik4a p {
+    text-align: center;
+    font-size: 18px;
+    width: 50%;
+}
+
+.services-img {
+    width: 40px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.arrow {
+    width: 20px;
+}
+
+.service-block {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-block * {
+    margin: 15px;
+}
+
+.service-blocks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.last-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.recent-pr {
+    margin: 150px 0 30px;
+}
+
+.last-cont p {
+    margin-bottom: 100px;
+}
+
+.pictures {
+    display: flex;
+    margin: 0 90px 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pictures img {
+    height: 312px;
+    margin: 10px;
+}
+
+.bottom-button {
+    margin-bottom: 150px;
+}
+
+.prelast-h5 {
+    align-self: flex-start;
+    margin-bottom: 25px;
+}
+
+.stay-in-zaloop {
+    display: flex;
+    margin: 0 150px;
+    flex-direction: column;
+    padding-bottom: 150px;
+
+}
+
+.stay-in-zaloop h5 {
+    text-align: left;
+}
+
+.stay-in-zaloop p {
+    margin-bottom: 100px;
+}
+
+.zaloop-by-himself {
+    display: flex;
+    padding: 30px;
+    background-color: #1C140F;
+    border-radius: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.zaloop-by-himself h5 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.zaloop-by-himself p {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.inputa {
+    border-radius: 12px;
+    padding: 15px;
+    width: 500px;
+    border: none;
+
+}
+
+.continue {
+    padding: 10px;
+    background-color: rgb(228, 148, 0);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin: -83px;
+}
+
+.left-zaloop-part {
+    margin-right: 350px;
+}
+
+footer {
+    display: flex;
+    margin: 0 150px 50px;
+    font-size: 12px;
+    padding-top: 50px;
+    justify-content: center;
+
+}
+
+footer div {
+    margin-right: 60px;
+}
+
+.footer-intro-text {
+    align-self: center;
+}
+
+.footer-intro-text h2 {
+    margin: 0 0 10px;
+}
+
+.footer-text-wrap {
+    display: flex;
+}
+
+.footer-text {
+    font-size: 18px;
+}
+
+.footer-text::first-child {
+    margin: 25px 0;
+}
+
+.footer-text p,
+.footer-intro-text p {
+    margin: 30px 0;
+}
+
+.footer-text ul {
+    margin: 5px 0;
+}
+
+.copyright-text-wrap {
+    width: 100%;
+    max-width: 2200px;
+}
+
+.copyright-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+    border-top-style: solid;
+    border-top-color: gray;
+}
+
+.big-black {
+    background-color: black;
+}
+
+.big-black p {
+    font-size: 18px;
+}
+
+.round-icon-wrap {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0 10px;
+    background-color: white;
+  }
+
+  .social-networks-wrap {
+    display: flex;
+    align-self: flex-end;
+  }
+  
+  .social-networks-icon {
+    width: 18px;
+  }
